@@ -47,9 +47,9 @@ const ProductPage = () => {
                         <span>${product.price}</span>
                         <div className="product-action-wrapper d-flex align-items-center justify-content-between">
                             <div className="quantity-wrapper d-flex align-items-center">
-                                <button onClick={() => handleQuantity("dec")} className="btn btn-success">-</button>
+                                <button onClick={() => handleQuantity("dec")} className="btn btn-danger">-</button>
                                 <div className="quantity-display">{quantity}</div>
-                                <button onClick={() => handleQuantity("inc")} className="btn btn-danger">+</button>
+                                <button onClick={() => handleQuantity("inc")} className="btn btn-success">+</button>
                             </div>
                             <button className="cart-action btn btn-primary" onClick={handleClick}>Add to cart</button>
                         </div>

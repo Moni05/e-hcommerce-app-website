@@ -1,0 +1,19 @@
+.category-wrapper{
+    overflow: hidden;
+    box-shadow: 0 14px 28px 0 rgb(158 157 157 / 30%);
+    border-radius: 10px;
+    height: 250px;
+    margin: 10px;
+    background: papayawhip;
+    padding: 50px;
+    max-width: 306px !important;
+}
+
+h4{
+    color: black;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none !important;
+}
